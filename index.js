@@ -44,4 +44,6 @@ app.post('/save_data', function(req, res) {
   res.json({ state: "ok" });
 });
 
-var server = app.listen(3000);
+var theport = process.env.PORT || 5000;
+
+var server = app.listen(theport);
