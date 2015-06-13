@@ -53,7 +53,7 @@ app.post('/save_data', function(req, res) {
 });
 
 app.get('/', function(req, res) {
-  //res.render('fb');
+  res.render('fb_login');
 });
 
 var theport = process.env.PORT || 5000;
