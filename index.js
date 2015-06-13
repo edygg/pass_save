@@ -10,7 +10,7 @@ app.use(bodyParser.urlencoded({     // to support URL-encoded bodies
 
 //----------------------------------------------------------------------------------------------------------------
 
-mongoose.connect('mongodb://localhost/data');
+mongoose.connect('mongodb://saver:saver1234$@ds047732.mongolab.com:47732/pass_save_data');
 
 var UserSchema = mongoose.Schema({
   username: String,
